@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+#bzlogo{
+	width:100px;
+}
+.p_bottom{
+	padding-bottom: 20px;
+}
+.txt_white{
+	color:#fff;
+}
+.txt_center{
+	text-align: center;
+}
+.main_page{
+	
+}
+.s_title{
+	font-weight: 900;
+}
+.department{
+	margin: 20px 0;
+}
+.b_card{
+	margin:20px;
+	transition: 0.8s all;
+}
+.b_card:hover{
+	box-shadow: 3px 3px 3px #333;
+	transform: translateY(-3px);
+}
