@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+#bzlogo{
+	width:100px;
+}
+.p_bottom{
+	padding-bottom: 20px;
+}
+.txt_white{
+	color:#fff;
+}
+.txt_center{
+	text-align: center;
+}
+#hero_sec{
+	height:85vh;
+	background-image: url("images/bzbanner.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.hero_txt{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-size: 40px;
+	text-align:center;
+	background-color: #111;
+	padding:30px;
+	opacity:0.7; 
+}
+.heading{
+	margin-bottom: 30px;
+}
+.department{
+	padding:50px;
+}
+.dept_events{
+	padding:20px;	
+}
+/*.event_name{
+	text-align: center;
+	padding:40px 0;
+}*/
+#address{
+	background-color: #3498db;
+	padding:20px 0px 0px 0px;
+}
+.contactus{
+	background-color: #555; 
+	padding:20px;
+}
+.cont{
+	text-align:center;
+}
+.cname{
+	padding-right: 20px;
+}
+.cnumber{
+
+}
+.cfooter{
+	background-color: #222;
+	padding:5px;
+}
