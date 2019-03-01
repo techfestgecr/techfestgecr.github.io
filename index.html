@@ -2,22 +2,28 @@
 <html>
 <head>
   <title>Brizingr</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <style type="text/css">
-  .container-fluid{
-    padding-right: 0;
-    padding-left: 0;
+  .card{
+    transition:0.9s all;
   }
+  .card:hover{
+    box-shadow: 3px 3px 3px #333;
+    transform: translateY(-3px);
+  }
+
 </style>
 <body>
-  <div class="container-fluid img-fluid" id="hero_sec">  
-    <nav class="navbar navbar-expand-md my-2 my-md-0 mr-md-3 sticky-top navbar-dark bg-dark"  style="position: fixed; width:100%; opacity:0.7">
+  
+  <div class="container img-fluid">  
+    <nav class="navbar navbar-expand-md    sticky-top navbar-dark bg-dark"  >
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,7 +34,7 @@
             <a class="nav-link txt_white navbar-right" href="index.html">Home</a>
           </li>
           <li class="nav-item pull-right">
-            <a class="nav-link txt_white navbar-right" href="" target="_blank">About Us</a>
+            <a class="nav-link txt_white navbar-right" href="#aboutus">About Us</a>
           </li>
           <li class="nav-item pull-right">
             <a class="nav-link txt_white navbar-right" href="registeration.html" target="_blank">How to Register</a>
@@ -44,13 +50,38 @@
         </ul>
       </div>
     </nav>
+  </div>
+  <div  class="container img-fluid" id="hero_sec">
+    <img src="images/brizingr.gif" class="img-fluid mybanner" alt="">
       <!-- <h3 class="txt_white hero_txt"><p> The biggest state level tech fest in Saurastra</p></h3> -->
   </div>
 
+  <section class="container" id="aboutus">
+    <div class="row">
+      <div class="col-md-7">
+        <h3 class="txt_center text-primary">About Us</h3>
+        <img src="" class="img-fluid" alt="">
+        <p  class="about_cont">
+          Government Engineering College, Rajkot was founded in the year 2004 with a vision to inculcate
+          technical competence, ethical conduct and innovative thinking so our students can creatively solve the problems faced by the society. Our institute which is approved by the "All India Council For Technical
+          Education"(AICTE) and affiliated to "Gujarat Technological University"(GTU), Ahmedabad supports society for their startup and funding as we are one of the center of "STARTUP INDIA" and "SSIP". Besides this, Our institutution offers bachelor programmes in Electronics and Communications, Instrumentation and Control, Computer, Mechanical, Civil and Automobile. We always welcome our students for initiating new ideas and provide necessary help and support.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <h3 class="txt_center text-primary">Brizingr</h3>
+        <img src="" class="img-fluid" alt="">
+        <p class="about_cont">Brizingr is a famous 2 days event where you can enhance your skills with Technical events, Have unlimited fun also helps improving your punctuality, brainstroming capacity and braveness with Non-Tech events and amazing representation of talent through the medium of dance, singing, interactive activities, etc by our students cultural events. It is one of the biggest techfest in Saurashtra region with 12000+ footfall (last year) and prices worth Rs 1 lakh.
+        </p>
+      </div>
+    </div>
+  </section>
   <section class="department">
     <div class="container">
       <div class="row">
-        
+        <div class="col-md-12 back_blue">
+          <h3 class="txt_center txt_white">Our Events</h3>
+        </div>
+
         <div class="col-md-4 dept_events">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
@@ -93,7 +124,7 @@
               <h5 class="card-title"><i class="fa fa-building-o" aria-hidden="true"></i> CIVIC CITY</h5>
               <h6 class="card-subtitle mb-2 text-muted">Civil Engineering</h6>
               <p class="card-text">Roadies and civil engineering events, enough said.</p>
-              <a href="#" class="card-link" target="_blank">Know More</a>
+              <a href="civiccity.html" class="card-link" target="_blank">Know More</a>
               <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm" target="_blank" class="card-link">Register</a>
             </div>
           </div>
@@ -129,7 +160,7 @@
               <h5 class="card-title"><i class="fa fa-picture-o" aria-hidden="true"></i> ADVENTURE ACTIVITY</h5>
               <h6 class="card-subtitle mb-2 text-muted">Special Event</h6>
               <p class="card-text">Are you the dare devil who can dare compete in these adventure activities?</p>   
-              <a href="#" class="card-link" target="_blank">Know More</a>
+              <a href="adventureactivity.html" class="card-link" target="_blank">Know More</a>
               <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm" target="_blank" class="card-link">Register</a>
             </div>
           </div>
@@ -150,45 +181,97 @@
       </div>
     </div>
   </section>
-  <section class="container-fluid" id="address">
+
+  <section class="container" id="address">
     <div class="row">
       <div class="col-md-12">
-          <h1 class="txt_white p_bottom txt_center">
+          <h3 class="txt_white p_bottom txt_center">
             Reach Us
-          </h1>
+          </h3>
       </div>
       <div class="col-md-12">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923.214977494069!2d70.74258039448497!3d22.245393444674054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cb0bae890265%3A0x791c3a55d1ba2885!2sGovernment+Engineering+College%2C+Rajkot!5e0!3m2!1sen!2sin!4v1551285454791" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>    
       </div>
     </div>
-    
   </section>
-  <section class="contactus" id="contactus">
-    <div class="container-fluid">
+  <section class="contactus container" id="contactus">
+    <div class="">
       
       <div class="row">
-        <div class="col-md-12">
-          <h2 class="txt_white txt_center">Student Cordinator</h2> 
-          <p class="txt_center txt_white p_bottom">For any query contact now</p>   
+        <div class="col-md-7">
+          <div class="row">  
+            <div class="col-md-12">
+              <h2 class="txt_white txt_center">Student Cordinator</h2> 
+              <p class="txt_center txt_white p_bottom">For any query contact now</p>   
+            </div>
+            <div class="col-md-6">
+              <p class="cont"><span class="cname txt_white">Bhola Jesa</span><span class="cnumber txt_white">90996 89082</span></p>
+              <p class="cont"><span class="cname txt_white">Shihora Parin</span><span class="cnumber txt_white">96879 64013</span></p>
+              <p class="cont"><span class="cname txt_white">Zinzuvadiya Vivek</span><span class="cnumber txt_white">82646 97048</span></p>
+              <p class="cont"><span class="cname txt_white">Raichura Mithilesh</span><span class="cnumber txt_white">99132 91221</span></p>
+            </div>
+            <div class="col-md-6">
+              <p class="cont"><span class="cname txt_white">Kapadiya Dhaval</span><span class="cnumber txt_white">94266 23326</span></p>
+              <p class="cont"><span class="cname txt_white">Dodiya Rishit</span><span class="cnumber txt_white">94088 86651</span></p>
+              <p class="cont"><span class="cname txt_white">Sagar Bhargav</span><span class="cnumber txt_white">97122 24275</span></p>
+              <p class="cont"><span class="cname txt_white">Bhuchhada Hiren</span><span class="cnumber txt_white">90339 10799</span></p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <p class="cont"><span class="cname txt_white">Bhola Jesa</span><span class="cnumber txt_white">90996 89082</span></p>
-          <p class="cont"><span class="cname txt_white">Shihora Parin</span><span class="cnumber txt_white">96879 64013</span></p>
-          <p class="cont"><span class="cname txt_white">Zinzuvadiya Vivek</span><span class="cnumber txt_white">82646 97048</span></p>
-          <p class="cont"><span class="cname txt_white">Raichura Mithilesh</span><span class="cnumber txt_white">99132 91221</span></p>
+
+        <div class="col-md-5" id="sponser">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="txt_white p_bottom txt_center">
+                Our Sponsers
+              </h3>
+              <img src="images/ice.jpg" class="sponser_img" alt="">
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <p class="cont"><span class="cname txt_white">Kapadiya Dhaval</span><span class="cnumber txt_white">94266 23326</span></p>
-          <p class="cont"><span class="cname txt_white">Dodiya Rishit</span><span class="cnumber txt_white">94088 86651</span></p>
-          <p class="cont"><span class="cname txt_white">Sagar Bhargav</span><span class="cnumber txt_white">97122 24275</span></p>
-          <p class="cont"><span class="cname txt_white">Bhuchhada Hiren</span><span class="cnumber txt_white">90339 10799</span></p>
-        </div>
-        <div class="col-md-6"></div>
+
       </div>
     </div>    
   </section>
-  <div class="container-fluid cfooter">
+  <div class="container cfooter">
     <p class="txt_white txt_center">&copy;Copyrights Reserved By GEC Rajkot</p>
   </div>
+
+  <div class="sticky-container">
+    <ul class="sticky">
+      <li>
+        <a href="https://www.facebook.com/GecRajkot2004" target="_blank" style="text-decoration: none;"><img width="32" height="32" title="" alt="" src="images/ss/fb1.png" />
+        <p class="p">GECR</p></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/brizingr2019" target="_blank" style="text-decoration: none;"><img width="32" height="32" title="" alt="" src="images/ss/fb1.png" />
+        <p class="p">Brizingr</p></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/gecrajkot2004/" target="_blank" style="text-decoration: none;"><img width="32" height="32" title="" alt="" src="images/ss/insta1.png" />
+        <p class="p">GECR</p></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/brizingr_2k19/" target="_blank" style="text-decoration: none;"><img width="32" height="32" title="" alt="" src="images/ss/insta1.png" />
+        <p class="p">Brizingr</p></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/gecrajkot2004?lang=en" target="_blank" style="text-decoration: none;"><img width="32" height="32" title="" alt="" src="images/ss/tw1.png" />
+        <p class="p">GECR</p></a>
+      </li>
+      <li>
+        <a href="http://www.gecrj.cteguj.in/" style="text-decoration: none;">
+        <img width="32" height="32" title="" alt="" src="images/ss/web2.png" />
+        <p class="p">GECR</p></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/school/government-engineering-college-rajkot-020/" target="_blank" style="text-decoration: none;">
+        <img width="32" height="32" title="" alt="" src="images/ss/li1.png" />
+        <p class="p">GECR</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+
 </body>
 </html>
